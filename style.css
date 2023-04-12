@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
 body{
     background-color: rgba(0, 0, 0, 0.829);
     width: 500px;
     margin: 4% auto;
+    margin-bottom: 0;
     font-family: 'Gill Sans', sans-serif;
     letter-spacing: 5px;
     font-size: 1.8rem;
@@ -123,4 +126,12 @@ body{
 
   div.equal:active {
     font-weight: bold;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    font-family: 'DynaPuff', cursive;
   }
